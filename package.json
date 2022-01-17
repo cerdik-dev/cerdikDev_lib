@@ -4,7 +4,7 @@
   "description": "library for cerdikDev",
   "main": "main.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/cerdikdev/cerdikDev_lib/issues"
   },
-  "homepage": "https://github.com/cerdikdev/cerdikDev_lib#readme"
+  "homepage": "https://github.com/cerdikdev/cerdikDev_lib#readme",
+  "devDependencies": {
+    "vitest": "^0.1.17"
+  }
 }
